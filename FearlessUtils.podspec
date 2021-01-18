@@ -27,7 +27,7 @@ Pod::Spec.new do |s|
   s.dependency 'TweetNacl', '~> 1.0.0'
   s.dependency 'BigInt', '~> 5.0'
   s.dependency 'xxHash-Swift', '~> 1.0.0'
-  
+  s.static_framework = true
   s.test_spec do |ts|
       ts.source_files = 'Tests/**/*.swift'
       ts.resources = ['Tests/**/*.json']
