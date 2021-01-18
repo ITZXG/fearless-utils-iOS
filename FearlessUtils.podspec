@@ -17,6 +17,7 @@ Pod::Spec.new do |s|
   s.source           = { :git => 'https://github.com/soramitsu/fearless-utils-iOS.git', :tag => s.version.to_s }
 
   s.ios.deployment_target = '11.0'
+  s.modular_headers = true
 
   s.source_files = 'FearlessUtils/Classes/**/*'
   s.dependency 'IrohaCrypto/sr25519', '~> 0.7.0'
