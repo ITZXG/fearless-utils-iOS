@@ -18,7 +18,7 @@ Pod::Spec.new do |s|
 
   s.static_framework = true
   s.ios.deployment_target = '11.0'
-  s.modular_headers = true
+  #s.modular_headers = true
 
   s.source_files = 'FearlessUtils/Classes/**/*'
   s.dependency 'IrohaCrypto/sr25519', '~> 0.7.0'
